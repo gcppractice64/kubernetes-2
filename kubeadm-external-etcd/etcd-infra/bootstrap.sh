@@ -9,3 +9,4 @@ systemctl reload sshd
 # Set Root password
 echo "[TASK 2] Set root password"
 echo -e "etcdadmin\netcdadmin" | passwd root >/dev/null 2>&1
+echo new line added
